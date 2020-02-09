@@ -1,0 +1,33 @@
+﻿<Window x:Class="SuperAgenda.ContatoViwer"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SuperAgenda"
+        mc:Ignorable="d"
+        Title="ContatoViwer" Height="377.767" Width="463.585"  ResizeMode="CanMinimize">
+    <Grid>
+        <Image x:Name="ContatoImg" HorizontalAlignment="Left" Height="138" Margin="10,10,0,0" VerticalAlignment="Top" Width="144" Source="Resources/platzhalter-bild.png"/>
+        <Label x:Name="NomeLbl" Content="Nome:" HorizontalAlignment="Left" Margin="154,18,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="TeleResLbl" Content="Telefone Res.:" HorizontalAlignment="Left" Margin="154,44,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="TeleComLbl" Content="Telefone Com.:" HorizontalAlignment="Left" Margin="154,65,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="CelLbl" Content="Celular:" HorizontalAlignment="Left" Margin="154,91,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="EmailLbl" Content="Email:" HorizontalAlignment="Left" Margin="154,117,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="EnderecoLbl" Content="Endereço:" HorizontalAlignment="Left" Margin="10,153,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="FacebookLbl" Content="Facebook:" HorizontalAlignment="Left" Margin="10,179,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="LinkedInLbl" Content="LinkedIn:" HorizontalAlignment="Left" Margin="10,205,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="WebsiteLbl" Content="Website:" HorizontalAlignment="Left" Margin="10,231,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="NotaLbl" Content="Nota:" HorizontalAlignment="Left" Margin="10,257,0,0" VerticalAlignment="Top"/>
+        <TextBlock x:Name="NomeTxt" HorizontalAlignment="Left" Margin="204,23,0,0" TextWrapping="Wrap" Text="texto recebido" VerticalAlignment="Top"/>
+        <TextBlock x:Name="TelResTxt" HorizontalAlignment="Left" Margin="240,49,0,0" TextWrapping="Wrap" Text="texto recebido" VerticalAlignment="Top"/>
+        <TextBlock x:Name="TelComTxt" HorizontalAlignment="Left" Margin="247,70,0,0" TextWrapping="Wrap" Text="texto recebido" VerticalAlignment="Top"/>
+        <TextBlock x:Name="CelTxt" HorizontalAlignment="Left" Margin="208,96,0,0" TextWrapping="Wrap" Text="texto recebido" VerticalAlignment="Top"/>
+        <TextBlock x:Name="EmailTxt" HorizontalAlignment="Left" Margin="195,122,0,0" TextWrapping="Wrap" Text="texto recebido" VerticalAlignment="Top"/>
+        <TextBlock x:Name="EndeTxt" HorizontalAlignment="Left" Margin="77,158,0,0" TextWrapping="Wrap" Text="texto recebido" VerticalAlignment="Top"/>
+        <TextBlock x:Name="FacebooTxt" HorizontalAlignment="Left" Margin="78,184,0,0" TextWrapping="Wrap" Text="texto recebido" VerticalAlignment="Top"/>
+        <TextBlock x:Name="LinkedInTxt" HorizontalAlignment="Left" Margin="72,210,0,0" TextWrapping="Wrap" Text="texto recebido" VerticalAlignment="Top"/>
+        <TextBlock x:Name="WebsiteTxt" HorizontalAlignment="Left" Margin="70,236,0,0" TextWrapping="Wrap" Text="texto recebido" VerticalAlignment="Top"/>
+        <TextBlock x:Name="NotaTxt" HorizontalAlignment="Left" Margin="54,262,0,0" TextWrapping="Wrap" Text="texto recabido" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

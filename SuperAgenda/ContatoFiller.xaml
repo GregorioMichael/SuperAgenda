@@ -1,0 +1,34 @@
+﻿<Window x:Class="SuperAgenda.ContatoFiller"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SuperAgenda"
+        mc:Ignorable="d"
+        Title="Novo Contato" Height="454" Width="370">
+    <Grid>
+        <Label x:Name="NomeLbl" Content="Nome:" HorizontalAlignment="Left" Margin="14,6,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="TeleResLbl" Content="Telefone Res.:" HorizontalAlignment="Left" Margin="10,36,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="TeleComLbl" Content="Telefone Com.:" HorizontalAlignment="Left" Margin="10,63,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="CelLbl" Content="Celular:" HorizontalAlignment="Left" Margin="10,88,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="EmailLbl" Content="Email:" HorizontalAlignment="Left" Margin="10,115,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="EnderecoLbl" Content="Endereço:" HorizontalAlignment="Left" Margin="10,142,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="FacebookLbl" Content="Facebook:" HorizontalAlignment="Left" Margin="9,169,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="LinkedInLbl" Content="LinkedIn:" HorizontalAlignment="Left" Margin="4,196,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="WebsiteLbl" Content="Website:" HorizontalAlignment="Left" Margin="6,223,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="NotaLbl" Content="Nota:" HorizontalAlignment="Left" Margin="14,250,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="NomeBox" HorizontalAlignment="Left" Height="22" Margin="78,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="163" MaxLines="1"/>
+        <TextBox x:Name="TelResBox" HorizontalAlignment="Left" Height="22" Margin="103,40,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="138" MaxLines="1" MaxLength="14"/>
+        <TextBox x:Name="TelComBox" HorizontalAlignment="Left" Height="22" Margin="103,67,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="138" MaxLines="1" MaxLength="14"/>
+        <TextBox x:Name="CelBox" HorizontalAlignment="Left" Height="22" Margin="78,92,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="163" MaxLines="1" MaxLength="14"/>
+        <TextBox x:Name="EmailBox" HorizontalAlignment="Left" Height="22" Margin="78,119,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="163" MaxLines="1"/>
+        <TextBox x:Name="EndBo" HorizontalAlignment="Left" Height="22" Margin="78,146,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="163" MaxLines="1"/>
+        <TextBox x:Name="FaceBox" HorizontalAlignment="Left" Height="22" Margin="78,173,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="163" MaxLines="1"/>
+        <TextBox x:Name="LinkedInBox" HorizontalAlignment="Left" Height="22" Margin="78,200,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="163" MaxLines="1"/>
+        <TextBox x:Name="WebBox" HorizontalAlignment="Left" Height="22" Margin="78,227,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="163" MaxLines="1"/>
+        <Image x:Name="FotoImg" HorizontalAlignment="Left" Height="100" Margin="246,14,0,0" VerticalAlignment="Top" Width="100" Source="Resources/platzhalter-bild.png"/>
+        <Button x:Name="SalvarBtn" Content="Salvar" HorizontalAlignment="Left" Margin="143,393,0,0" VerticalAlignment="Top" Width="75" Click="SalvarBtn_Click"/>
+        <TextBox x:Name="NotaBox" HorizontalAlignment="Left" Height="125" Margin="78,254,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="212"/>
+
+    </Grid>
+</Window>
